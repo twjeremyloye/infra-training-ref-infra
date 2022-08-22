@@ -27,7 +27,7 @@ func TestClusterRDSIntegration(t *testing.T) {
 	}
 
 	k8s.KubectlApplyFromString(t, options, string(podYmlBytes))
-	defer k8s.KubectlDeleteFromString(t, options, string(podYmlBytes))
+	//defer k8s.KubectlDeleteFromString(t, options, string(podYmlBytes))
 	k8s.WaitUntilPodAvailable(t, options, "test-pod", 15, 3*time.Second)
 
 	// fire test command from test pod
