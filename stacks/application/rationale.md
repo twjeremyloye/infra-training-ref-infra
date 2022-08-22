@@ -1,0 +1,1 @@
+The Application stack could change frequently with new applications being added and could be managed by the application team.

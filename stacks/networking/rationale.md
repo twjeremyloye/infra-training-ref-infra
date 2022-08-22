@@ -1,0 +1,1 @@
+The VPC, subnet and NAT Gateway configuration are all part of the infrastructure networking, rarely changes and belongs to the Infra team. 

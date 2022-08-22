@@ -1,0 +1,1 @@
+The database belongs to either the Application or Ops team, may be changed infrequently and could risk bringing down any Application connected to it with unintended change.
